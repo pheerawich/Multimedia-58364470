@@ -32,7 +32,8 @@ import { GoogleCloudVisionServiceProvider } from '../providers/google-cloud-visi
     IonicModule.forRoot(MyApp),
     AngularFireModule.initializeApp(environment.firebaseConfig),
     AngularFireDatabaseModule,
-    AngularFireAuthModule
+    AngularFireAuthModule,
+    HttpModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
