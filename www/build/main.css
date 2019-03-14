@@ -28021,6 +28021,11 @@ page-about .menu-sun {
   padding-left: 20%;
 }
 
+page-contact .backgroud-about {
+  background: #1a0a3a;
+  color: #ffffff;
+}
+
 page-home .backgroud-home {
   background: #1a0a3a;
   color: #ffffff;
