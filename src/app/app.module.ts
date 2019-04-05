@@ -18,6 +18,14 @@ import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { AngularFireAuthModule } from 'angularfire2/auth';
 import { environment } from '../environment';
 import { GoogleCloudVisionServiceProvider } from '../providers/google-cloud-vision-service/google-cloud-vision-service';
+import { InfoPage } from '../pages/info/info';
+import { MenuPage } from '../pages/menu/menu';
+import { CombasicPage } from '../pages/combasic/combasic';
+import {WhatcomPage} from '../pages/whatcom/whatcom';
+import { FreshyPage } from '../pages/freshy/freshy';
+import { JuniorPage } from '../pages/junior/junior';
+import { SeniorPage } from '../pages/senior/senior';
+import { SophomorePage } from '../pages/sophomore/sophomore';
 
 @NgModule({
   declarations: [
@@ -25,7 +33,15 @@ import { GoogleCloudVisionServiceProvider } from '../providers/google-cloud-visi
     AboutPage,
     ContactPage,
     HomePage,
-    TabsPage
+    TabsPage,
+    InfoPage,
+    MenuPage,
+    CombasicPage,
+    WhatcomPage,
+    FreshyPage,
+    JuniorPage,
+    SeniorPage,
+    SophomorePage
   ],
   imports: [
     BrowserModule,
@@ -42,7 +58,14 @@ import { GoogleCloudVisionServiceProvider } from '../providers/google-cloud-visi
     ContactPage,
     HomePage,
     TabsPage,
-    HttpModule
+    InfoPage,
+    MenuPage,
+    CombasicPage,
+    WhatcomPage,
+    FreshyPage,
+    JuniorPage,
+    SeniorPage,
+    SophomorePage
   ],
   providers: [
     StatusBar,

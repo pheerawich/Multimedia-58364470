@@ -1,0 +1,30 @@
+page-whatcom {
+    .backgroud-whatcom{
+        width:100%;
+        height:100%;
+        columns: #000000;
+        font-weight:bold;
+        animation: myanimation 10s infinite;
+    }
+    @keyframes myanimation {
+        0% {background-color: #f8f1f1;}
+        25%{background-color: #d2c8c8;}
+        50%{background-color: #a3816a;}
+        75%{background-color: #d2c8c8;}
+        100% {background-color: #f8f1f1;}
+    }
+    .text{
+        float: right;
+    }
+    .img{
+        width: 100px;
+        height: 100px;
+        float: left;
+    }
+    .img1{
+        width: 100px;
+        height: 100px;
+        float: right;
+    }
+
+}

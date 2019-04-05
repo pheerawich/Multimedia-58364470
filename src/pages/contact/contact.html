@@ -1,3 +1,6 @@
+<ion-header >
+  <ion-navbar></ion-navbar>
+</ion-header>
 <ion-content padding>
   <ion-card *ngFor="let item of items | async">
     <img [src]="'data:image/png;base64,' + item.imageData" />

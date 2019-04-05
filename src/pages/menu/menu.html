@@ -1,0 +1,43 @@
+<ion-content padding class="backgroud-manu">
+  <br><br>
+  <marquee direction="left" scrollamount="4">Welcome to the computer engineering education.</marquee>
+  <br><br>
+  <div class="wave"></div>
+  <div class="wave wave1"></div>
+  <div class="wave wave2"></div>
+
+  <ion-slides slidesPerView="2" spaceBetween="10px" style=" height : 30%">
+    <ion-slide>
+      <div class="menu-home-close" (click)="navigateToHome()">
+        <img src="../../assets/imgs/home.svg" class="menu-top">
+        <!-- <span>Education</span><br>
+        <span style="font-size : 28px;">Guidance</span> -->
+      </div>
+    </ion-slide>
+    <ion-slide>
+      <div class="menu-home-close" (click)="navigateToAbout()">
+        <img src="../../assets/imgs/about.svg" class="menu-top">
+        <!-- <span>Heat</span><br>
+        <span style="font-size : 30px;">10 ํ-19 ํ</span> -->
+      </div>
+    </ion-slide>
+  </ion-slides>
+  <br><br><br><br>
+  <ion-slides slidesPerView="2" spaceBetween="10px" style=" height : 30%">
+    <ion-slide>
+      <div class="menu-home-close" (click)="navigateToContact()">
+        <img src="../../assets/imgs/camera.svg" class="menu-top">
+        <!-- <span>Education</span><br>
+          <span style="font-size : 28px;">Guidance</span> -->
+      </div>
+    </ion-slide>
+    <ion-slide>
+      <div class="menu-home-close" (click)="navigateToInfo()">
+        <img src="../../assets/imgs/book1.svg" class="menu-top">
+        <!-- <span>Heat</span><br>
+          <span style="font-size : 30px;">10 ํ-19 ํ</span> -->
+      </div>
+    </ion-slide>
+  </ion-slides>
+
+</ion-content>

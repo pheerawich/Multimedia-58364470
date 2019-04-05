@@ -13,7 +13,7 @@ page-home {
     border-radius: 43%;
     animation: drift 8000ms infinite linear;
     opacity: 0.3;
-    bottom: -145%;
+    bottom: -165%;
     left: -70%;
 }
 .wave.wave1{
@@ -31,13 +31,13 @@ page-home {
     from {transform: rotate(360deg);}
 }
 .menu-home-active{
-    height: 170px;
+    height: 150px;
     // width: 200px;
     background: #ff3e62;
     border-radius: 6px;
 }
 .menu-home-close{
-    height: 170px;
+    height: 150px;
     border-radius: 6px;
     border-style: solid;
     border-width: 2px;
@@ -53,7 +53,7 @@ page-home {
     height: 100%;
     border-radius: 5px;
     box-shadow: 0 2px 30px rgba(0, 0, 0, 0.397);
-    background: lighten(rgba(0,0,0,0.396),10%);
+    // background: lighten(rgba(0,0,0,0.396),10%);
     position: relative;
     overflow: hidden;
 }

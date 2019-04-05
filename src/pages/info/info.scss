@@ -1,0 +1,36 @@
+page-info {
+    .backgroud-info{
+        width:100%;
+        height:100%;
+        columns: #000000;
+        font-weight:bold;
+        animation: myanimation 10s infinite;
+    }
+    @keyframes myanimation {
+        0% {background-color: #f8f1f1;}
+        25%{background-color: #d2c8c8;}
+        50%{background-color: #a3816a;}
+        75%{background-color: #d2c8c8;}
+        100% {background-color: #f8f1f1;}
+      }
+    .square {
+        width: 170px;      
+        height: 190px;    
+        border-radius: 30px;
+        border-style: solid;
+        border-width: 2px;
+        border-color: #ffffff;    
+    }
+    .center{
+        text-align: center;
+        color: #0a065d;
+    }
+    .info-padding{
+        padding-left: 25%;
+        padding-right: 32%;
+    }
+    .paddingview{
+        padding: 10%;
+    }
+
+}

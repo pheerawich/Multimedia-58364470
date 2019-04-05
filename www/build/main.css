@@ -28021,9 +28021,55 @@ page-about .menu-sun {
   padding-left: 20%;
 }
 
+page-combasic .backgroud-combasic {
+  width: 100%;
+  height: 100%;
+  -webkit-columns: #000000;
+  columns: #000000;
+  font-weight: bold;
+  -webkit-animation: myanimation 10s infinite;
+  animation: myanimation 10s infinite;
+}
+
+page-combasic .combasic-padding {
+  padding-left: 25%;
+  padding-right: 35%;
+}
+
+page-combasic .square {
+  width: 170px;
+  height: 190px;
+  border-radius: 30px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #ffffff;
+}
+
+page-combasic .view {
+  padding: 10%;
+}
+
+page-combasic .text {
+  text-align: center;
+}
+
 page-contact .backgroud-about {
   background: #1a0a3a;
   color: #ffffff;
+}
+
+page-freshy .backgroud-freshy {
+  width: 100%;
+  height: 100%;
+  -webkit-columns: #000000;
+  columns: #000000;
+  font-weight: bold;
+  -webkit-animation: myanimation 10s infinite;
+  animation: myanimation 10s infinite;
+}
+
+page-freshy .img {
+  padding-left: 28%;
 }
 
 page-home .backgroud-home {
@@ -28042,7 +28088,7 @@ page-home .wave {
   -webkit-animation: drift 8000ms infinite linear;
   animation: drift 8000ms infinite linear;
   opacity: 0.3;
-  bottom: -145%;
+  bottom: -165%;
   left: -70%;
 }
 
@@ -28085,13 +28131,13 @@ page-home .wave.wave2 {
 }
 
 page-home .menu-home-active {
-  height: 170px;
+  height: 150px;
   background: #ff3e62;
   border-radius: 6px;
 }
 
 page-home .menu-home-close {
-  height: 170px;
+  height: 150px;
   border-radius: 6px;
   border-style: solid;
   border-width: 2px;
@@ -28110,7 +28156,6 @@ page-home .content-home {
   border-radius: 5px;
   -webkit-box-shadow: 0 2px 30px rgba(0, 0, 0, 0.397);
   box-shadow: 0 2px 30px rgba(0, 0, 0, 0.397);
-  background: rgba(26, 26, 26, 0.396);
   position: relative;
   overflow: hidden;
 }
@@ -28127,4 +28172,227 @@ page-home .menu-home1 {
   width: 200px;
   background: #ff36a5;
   border-radius: 10px;
+}
+
+page-info .backgroud-info {
+  width: 100%;
+  height: 100%;
+  -webkit-columns: #000000;
+  columns: #000000;
+  font-weight: bold;
+  -webkit-animation: myanimation 10s infinite;
+  animation: myanimation 10s infinite;
+}
+
+@-webkit-keyframes myanimation {
+  0% {
+    background-color: #f8f1f1;
+  }
+  25% {
+    background-color: #d2c8c8;
+  }
+  50% {
+    background-color: #a3816a;
+  }
+  75% {
+    background-color: #d2c8c8;
+  }
+  100% {
+    background-color: #f8f1f1;
+  }
+}
+
+@keyframes myanimation {
+  0% {
+    background-color: #f8f1f1;
+  }
+  25% {
+    background-color: #d2c8c8;
+  }
+  50% {
+    background-color: #a3816a;
+  }
+  75% {
+    background-color: #d2c8c8;
+  }
+  100% {
+    background-color: #f8f1f1;
+  }
+}
+
+page-info .square {
+  width: 170px;
+  height: 190px;
+  border-radius: 30px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #ffffff;
+}
+
+page-info .center {
+  text-align: center;
+  color: #0a065d;
+}
+
+page-info .info-padding {
+  padding-left: 25%;
+  padding-right: 32%;
+}
+
+page-info .paddingview {
+  padding: 10%;
+}
+
+page-junior .backgroud-junior {
+  width: 100%;
+  height: 100%;
+  -webkit-columns: #000000;
+  columns: #000000;
+  font-weight: bold;
+  -webkit-animation: myanimation 10s infinite;
+  animation: myanimation 10s infinite;
+}
+
+page-junior .img {
+  padding-left: 28%;
+}
+
+page-menu .menu-home-close {
+  height: 175px;
+  border-radius: 30px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #d12556;
+  padding: 10%;
+}
+
+page-menu .wave {
+  position: absolute;
+  background: #6285c6;
+  width: 900px;
+  height: 900px;
+  -webkit-transform-origin: 50% 48%;
+  transform-origin: 50% 48%;
+  border-radius: 43%;
+  -webkit-animation: drift 8000ms infinite linear;
+  animation: drift 8000ms infinite linear;
+  opacity: 0.3;
+  bottom: -145%;
+  left: -70%;
+}
+
+page-menu .wave.wave1 {
+  background: radial-gradient(clrcle at 100%, #415e92, #415e92 50%, rgba(0, 0, 0, 0) 100%);
+  -webkit-animation: drift 4000ms infinite linear;
+  animation: drift 4000ms infinite linear;
+  -webkit-box-shadow: 0 50px 50px rgba(98, 133, 198, 0.439);
+  box-shadow: 0 50px 50px rgba(98, 133, 198, 0.439);
+}
+
+page-menu .wave.wave2 {
+  background: radial-gradient(clrcle at 100%, #6285c6, #6285c6 50%, rgba(0, 0, 0, 0) 100%);
+  -webkit-animation: drift 6000ms infinite linear;
+  animation: drift 6000ms infinite linear;
+  -webkit-box-shadow: 0 50px 50px rgba(98, 133, 198, 0.439);
+  box-shadow: 0 50px 50px rgba(98, 133, 198, 0.439);
+}
+
+page-menu .backgroud-manu {
+  width: 100%;
+  height: 100%;
+  -webkit-columns: #000000;
+  columns: #000000;
+  font-weight: bold;
+  -webkit-animation: myanimation 10s infinite;
+  animation: myanimation 10s infinite;
+}
+
+@keyframes myanimation {
+  0% {
+    background-color: #3c415e;
+  }
+  25% {
+    background-color: #738598;
+  }
+  50% {
+    background-color: #dfe2e2;
+  }
+  75% {
+    background-color: #1cb3c8;
+  }
+  100% {
+    background-color: #3c415e;
+  }
+}
+
+page-senior .backgroud-senior {
+  width: 100%;
+  height: 100%;
+  -webkit-columns: #000000;
+  columns: #000000;
+  font-weight: bold;
+  -webkit-animation: myanimation 10s infinite;
+  animation: myanimation 10s infinite;
+}
+
+page-senior .img {
+  padding-left: 28%;
+}
+
+page-sophomore .backgroud-sophomore {
+  width: 100%;
+  height: 100%;
+  -webkit-columns: #000000;
+  columns: #000000;
+  font-weight: bold;
+  -webkit-animation: myanimation 10s infinite;
+  animation: myanimation 10s infinite;
+}
+
+page-sophomore .img {
+  padding-left: 28%;
+}
+
+page-whatcom .backgroud-whatcom {
+  width: 100%;
+  height: 100%;
+  -webkit-columns: #000000;
+  columns: #000000;
+  font-weight: bold;
+  -webkit-animation: myanimation 10s infinite;
+  animation: myanimation 10s infinite;
+}
+
+@keyframes myanimation {
+  0% {
+    background-color: #f8f1f1;
+  }
+  25% {
+    background-color: #d2c8c8;
+  }
+  50% {
+    background-color: #a3816a;
+  }
+  75% {
+    background-color: #d2c8c8;
+  }
+  100% {
+    background-color: #f8f1f1;
+  }
+}
+
+page-whatcom .text {
+  float: right;
+}
+
+page-whatcom .img {
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+
+page-whatcom .img1 {
+  width: 100px;
+  height: 100px;
+  float: right;
 }
